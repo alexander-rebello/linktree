@@ -17,7 +17,7 @@
    - Customize styles directly in the `<style>` tag or link your own CSS.
 2. **Deploy**
    - Upload the `index.html` file to your web server or static hosting provider.
-   - I am using [GitHub Pages](https://pages.github.com/) for hosting, but you can use any static hosting service.
+   - Maybe use [GitHub Pages](https://pages.github.com/) for hosting
 
 ## Demo
 
