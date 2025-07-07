@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta content="width=device-width, initial-scale=1.0" name="viewport" />
+		<title>Alexander Rebello</title>
+		<meta content="Alexander Rebello's personal portfolio showcasing his work in web development and UI/UX design." name="description" />
+		<meta content="portfolio, web development, ui/ux design, front-end development, back-end development, web design, user experience, user interface" name="keywords" />
+
+		<!-- favicons -->
+		<link rel="apple-touch-icon" sizes="57x57" href="https://cdn.alexander-rebello.de/img/favicons/apple-icon-57x57.png" />
+		<link rel="apple-touch-icon" sizes="60x60" href="https://cdn.alexander-rebello.de/img/favicons/apple-icon-60x60.png" />
+		<link rel="apple-touch-icon" sizes="72x72" href="https://cdn.alexander-rebello.de/img/favicons/apple-icon-72x72.png" />
+		<link rel="apple-touch-icon" sizes="76x76" href="https://cdn.alexander-rebello.de/img/favicons/apple-icon-76x76.png" />
+		<link rel="apple-touch-icon" sizes="114x114" href="https://cdn.alexander-rebello.de/img/favicons/apple-icon-114x114.png" />
+		<link rel="apple-touch-icon" sizes="120x120" href="https://cdn.alexander-rebello.de/img/favicons/apple-icon-120x120.png" />
+		<link rel="apple-touch-icon" sizes="144x144" href="https://cdn.alexander-rebello.de/img/favicons/apple-icon-144x144.png" />
+		<link rel="apple-touch-icon" sizes="152x152" href="https://cdn.alexander-rebello.de/img/favicons/apple-icon-152x152.png" />
+		<link rel="apple-touch-icon" sizes="180x180" href="https://cdn.alexander-rebello.de/img/favicons/apple-icon-180x180.png" />
+		<link rel="icon" type="image/png" sizes="192x192" href="https://cdn.alexander-rebello.de/img/favicons/android-icon-192x192.png" />
+		<link rel="icon" type="image/png" sizes="32x32" href="https://cdn.alexander-rebello.de/img/favicons/favicon-32x32.png" />
+		<link rel="icon" type="image/png" sizes="96x96" href="https://cdn.alexander-rebello.de/img/favicons/favicon-96x96.png" />
+		<link rel="icon" type="image/png" sizes="16x16" href="https://cdn.alexander-rebello.de/img/favicons/favicon-16x16.png" />
+		<link rel="manifest" href="https://cdn.alexander-rebello.de/img/favicons/manifest.json" />
+		<meta name="msapplication-TileColor" content="#011126" />
+		<meta name="msapplication-TileImage" content="https://cdn.alexander-rebello.de/img/favicons/ms-icon-144x144.png" />
+		<meta name="theme-color" content="#011126" />
+
+		<link href="https://cdn.alexander-rebello.de/css/style.min.css" rel="stylesheet" />
+
+		<style>
+			html,
+			body {
+				width: 100%;
+				height: 100vh;
+				margin: 0;
+				padding: 0;
+			}
+
+			body {
+				display: flex;
+				align-items: center;
+				flex-direction: column;
+				padding-top: 20px;
+			}
+
+			.area {
+				z-index: -100;
+			}
+
+			h1 {
+				margin-top: 20px;
+				text-align: center;
+				color: #fff;
+			}
+
+			main {
+				margin: 0 auto;
+				width: 90%;
+			}
+
+			a {
+				font-size: 18px;
+				height: 40px;
+				line-height: 40px;
+				text-align: center;
+				width: 100%;
+				display: block;
+				color: #fff;
+				border: 2px solid #fff;
+				background: rgb(255, 255, 255, 0.03);
+				text-decoration: none;
+				margin: auto;
+				margin-top: 10px;
+				transition: 0.3s ease-in-out;
+				font-weight: 500;
+				letter-spacing: 2px;
+				box-shadow: 0 0 35px 0 rgba(0, 0, 0, 0.25);
+			}
+
+			a:hover {
+				background: #fff;
+				color: #0f294f;
+				transition: 0.3s ease-in-out;
+			}
+
+			@media only screen and (min-width: 300px) {
+				main {
+					width: 70%;
+				}
+			}
+
+			@media only screen and (min-width: 600px) {
+				main {
+					width: 50%;
+				}
+				.blob-container {
+					width: 45%;
+				}
+			}
+
+			@media only screen and (min-width: 900px) {
+				main {
+					width: 40%;
+				}
+				a {
+					height: 55px;
+					line-height: 55px;
+					margin-top: 25px;
+				}
+			}
+
+			.blob-container {
+				width: 60%;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class="area">
+			<ul class="circles">
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+			</ul>
+		</div>
+		<div class="blob-container">
+			<svg viewBox="0 0 200 200">
+				<defs>
+					<clipPath id="blobMask2">
+						<path
+							class="blob"
+							fill="white"
+							d="m 161.18269,24.063615 c 11.9534,14.084418 17.79728,31.591218 24.43807,47.255197 6.50796,15.66398 13.81281,29.353508 12.21902,42.121628 -1.59378,12.76811 -12.08621,24.74645 -21.25048,35.93501 -9.16428,11.18856 -16.86758,21.58733 -27.22719,31.32795 -10.49244,9.60899 -23.50836,18.29658 -35.99302,17.50681 C 100.7516,197.28879 88.798209,186.75839 75.915099,178.59733 63.164805,170.30463 49.484801,164.38127 35.140721,153.9825 20.929455,143.71536 5.9212963,128.97278 2.9993542,112.65066 0.077411,96.328526 9.1088695,78.295206 22.656057,66.448499 36.070429,54.601793 53.734899,49.07333 69.539951,37.094992 85.212188,25.116656 99.025008,6.8200748 115.09569,3.1344326 c 15.93787,-3.81727221 34.1336,6.8447639 46.087,20.9291824 z"
+						/>
+					</clipPath>
+				</defs>
+				<image href="https://cdn.alexander-rebello.de/img/my-profile-img.jpg" width="200" height="200" clip-path="url(#blobMask2)" />
+			</svg>
+		</div>
+		<main>
+			<h1>Alexander Rebello</h1>
+			<a href="https://www.alexander-rebello.de">Website</a>
+			<a href="https://github.com/alexander-rebello/">Github</a>
+			<a href="https://www.instagram.com/alexander.rebello">Instagram</a>
+			<a href="https://www.alexander-rebello.de/#contact">Contact</a>
+		</main>
+	</body>
+</html>
